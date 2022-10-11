@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is from The Odin Project's Ruby on Rails section.
 
-Things you may want to cover:
+[https://www.theodinproject.com/lessons/ruby-on-rails-members-only](https://www.theodinproject.com/lessons/ruby-on-rails-members-only)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The purpose of this project is to illustrate the use of authorization on a website. 
+Users are able to log into the website and make posts. Users can see the who the author of posts are. Visitors to the website can see posts, but not the author of posts.
