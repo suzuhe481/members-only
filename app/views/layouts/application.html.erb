@@ -15,8 +15,7 @@
     <p class="alert"><%= alert %></p>
 
     <% if user_signed_in? %>
-      <p>Hello, <%= current_user %> </p>
-      <p>You are signed in.</p>
+      <p>Hello, <%= current_user.username %>. </p>
     <% else %>
       <a href="/users/sign_in">Click to Sign in</a>
     <% end %>
