@@ -8,12 +8,12 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   devise_scope :user do
-    # authenticated :user do
-      # root 
-    # end
+    authenticated :user do
+      # root 'layouts#application', as: :authenticated_root
+    end
 
-    unauthenticated :user do 
-      root "devise/sessions#new"
+    unauthenticated do
+      root 'devise/sessions#new', as: :unauthenticated_root
     end
   end
 end
