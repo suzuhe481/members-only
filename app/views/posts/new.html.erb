@@ -1,0 +1,7 @@
+<h1>Write a new Post</h1>
+
+<%= form_with url: "/posts" do |form| %>
+  <%= form.label :body, "Body:" %> <br>
+  <%= form.text_field :body %> <br>
+  <%= form.submit "Submit" %>
+<% end %>
