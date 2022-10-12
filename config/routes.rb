@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
 
+  resources :posts, only: [:new, :create, :index]
+
   devise_scope :user do
     authenticated :user do
       # root 'layouts#application', as: :authenticated_root
